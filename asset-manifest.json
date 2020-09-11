@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/smartfitapp/static/css/main.c7fe77ec.chunk.css",
-    "main.js": "/smartfitapp/static/js/main.fd8088b2.chunk.js",
-    "main.js.map": "/smartfitapp/static/js/main.fd8088b2.chunk.js.map",
+    "main.css": "/smartfitapp/static/css/main.453d8880.chunk.css",
+    "main.js": "/smartfitapp/static/js/main.2e78344f.chunk.js",
+    "main.js.map": "/smartfitapp/static/js/main.2e78344f.chunk.js.map",
     "runtime-main.js": "/smartfitapp/static/js/runtime-main.db2e8487.js",
     "runtime-main.js.map": "/smartfitapp/static/js/runtime-main.db2e8487.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/smartfitapp/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c4f85a23.chunk.js": "/smartfitapp/static/js/2.c4f85a23.chunk.js",
-    "static/js/2.c4f85a23.chunk.js.map": "/smartfitapp/static/js/2.c4f85a23.chunk.js.map",
+    "static/js/2.f30f4c72.chunk.js": "/smartfitapp/static/js/2.f30f4c72.chunk.js",
+    "static/js/2.f30f4c72.chunk.js.map": "/smartfitapp/static/js/2.f30f4c72.chunk.js.map",
     "index.html": "/smartfitapp/index.html",
-    "precache-manifest.d9f65c3a67722da9189c7e33ccb447db.js": "/smartfitapp/precache-manifest.d9f65c3a67722da9189c7e33ccb447db.js",
+    "precache-manifest.935d43383ca83da48c07dfdf2e54e90b.js": "/smartfitapp/precache-manifest.935d43383ca83da48c07dfdf2e54e90b.js",
     "service-worker.js": "/smartfitapp/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/smartfitapp/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.c7fe77ec.chunk.css.map": "/smartfitapp/static/css/main.c7fe77ec.chunk.css.map",
-    "static/js/2.c4f85a23.chunk.js.LICENSE.txt": "/smartfitapp/static/js/2.c4f85a23.chunk.js.LICENSE.txt"
+    "static/css/main.453d8880.chunk.css.map": "/smartfitapp/static/css/main.453d8880.chunk.css.map",
+    "static/js/2.f30f4c72.chunk.js.LICENSE.txt": "/smartfitapp/static/js/2.f30f4c72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db2e8487.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c4f85a23.chunk.js",
-    "static/css/main.c7fe77ec.chunk.css",
-    "static/js/main.fd8088b2.chunk.js"
+    "static/js/2.f30f4c72.chunk.js",
+    "static/css/main.453d8880.chunk.css",
+    "static/js/main.2e78344f.chunk.js"
   ]
 }
