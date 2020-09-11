@@ -16,7 +16,6 @@ export default function LogIn() {
     useEffect( ()=> {
         auth.onAuthStateChanged( user => {
             if(user && user.emailVerified){
-              console.log(user)
               history.push('/')
             }
           })
@@ -25,7 +24,9 @@ export default function LogIn() {
     const handleMailLogIn = (event: React.SyntheticEvent, user: string, passwd: string) => {
         event.preventDefault();
         auth.signInWithEmailAndPassword(user, passwd)
-            .then(() => history.push('/'))
+            .then(() => {
+                if(auth.currentUser?.emailVerified) history.push('/')
+            })
             .catch(error => console.log(error.code));
     }
 
