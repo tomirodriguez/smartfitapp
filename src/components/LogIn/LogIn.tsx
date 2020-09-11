@@ -10,13 +10,16 @@ import { useHistory } from 'react-router-dom';
 export default function LogIn() {
 
     const [loginVisible, setLoginVisibility] = useState(true);
-    const [signInVisible, setSignInVisibility] = useState(true);
+    // const [signInVisible, setSignInVisibility] = useState(true);
     const history = useHistory();
 
     useEffect( ()=> {
-        if(auth.currentUser?.emailVerified){
-            history.push('/')
-        }
+        auth.onAuthStateChanged( user => {
+            if(user){
+              console.log(user)
+              history.push('/')
+            }
+          })
     },[])
 
     const handleMailLogIn = (event: React.SyntheticEvent, user: string, passwd: string) => {
@@ -43,12 +46,12 @@ export default function LogIn() {
 
     const showSignInForm = () => {
         setLoginVisibility(false);
-        setSignInVisibility(true);
+        // setSignInVisibility(true);
     }
 
     const showLogInForm = () => {
         setLoginVisibility(true);
-        setSignInVisibility(false);
+        // setSignInVisibility(false);
     }
 
     return (
