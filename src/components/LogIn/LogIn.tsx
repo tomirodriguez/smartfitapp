@@ -15,7 +15,7 @@ export default function LogIn() {
 
     useEffect( ()=> {
         auth.onAuthStateChanged( user => {
-            if(user){
+            if(user && user.emailVerified){
               console.log(user)
               history.push('/')
             }

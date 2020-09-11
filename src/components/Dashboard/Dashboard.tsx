@@ -9,8 +9,7 @@ export default function Dashboard() {
     useEffect(() => {
         auth.onAuthStateChanged(user => {
             if(!user){
-              console.log(user)
-              history.push('/login')
+              history.push('/login');
             }
           })
     }, [])
