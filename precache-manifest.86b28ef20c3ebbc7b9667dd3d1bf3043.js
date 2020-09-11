@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb37163cf797be0a3038d42272ae47bd",
+    "revision": "f3f77fa46b92a0ba8ae91b6d1814c0f6",
     "url": "/smartfitapp/index.html"
   },
   {
