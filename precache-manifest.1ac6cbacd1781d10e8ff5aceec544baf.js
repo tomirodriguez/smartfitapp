@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2105ae7d0e4232fcfd46a3cc7db1d303",
+    "revision": "0e3c6f7addf67b5d0a335b5b1295a8d6",
     "url": "/smartfitapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartfitapp/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "56e5a31e34f7c09db759",
+    "revision": "65ffad004be49be69e2a",
     "url": "/smartfitapp/static/css/main.453d8880.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartfitapp/static/js/2.c19158c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56e5a31e34f7c09db759",
-    "url": "/smartfitapp/static/js/main.cffb4553.chunk.js"
+    "revision": "65ffad004be49be69e2a",
+    "url": "/smartfitapp/static/js/main.8dbc34b6.chunk.js"
   },
   {
     "revision": "d4f2c3bce010ca558990",
