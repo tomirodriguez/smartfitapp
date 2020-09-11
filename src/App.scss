@@ -1,0 +1,37 @@
+// FONT DEL LOGO
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+// FONT GENERAL
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.app {
+    height: 100vh;
+    width: 100%;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.defaultInput {
+    border: 0;
+    border-bottom: 2px solid gray;
+
+    &:focus {
+        border-bottom: 2px solid rgb(63, 63, 230);
+    }
+}
+
+.bg-darkblue {
+    background-color: rgb(2, 52, 109);
+}
+
+.font-size-small {
+    font-size: small;
+}
+
+.link {
+    cursor: pointer;
+    color: blue;
+
+    &:hover {
+        color: rgb(0, 0, 173);
+    }
+}
