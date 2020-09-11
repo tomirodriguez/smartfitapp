@@ -9,7 +9,7 @@ export default function SocialMediaLogin(props: { onSocialMediaLogIn: Function }
 
     return (
         <form className="socialMediaLogin d-flex flex-column justify-content-between py-5" onSubmit={onFormSubmitted}>
-            <h1 className="brand text-center">SMARTFIT</h1>
+            <p className="brand text-center">SMARTFIT</p>
             <p className="socialLogInText mb-4">Entra con alguna red social para hacerlo mas rapido</p>
             <button className="btn facebook py-2 my-2  w-100">
                 <div className='buttonContent d-flex align-items-center justify-content-center'>

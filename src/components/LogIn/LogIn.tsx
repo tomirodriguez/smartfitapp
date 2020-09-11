@@ -1,27 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import SocialMediaLogin from './SocialMediaLogin';
 import LogInForm from './LogInForm';
 import SignInForm from './SignInForm';
 
 import auth from '../../firebase';
+import { useHistory } from 'react-router-dom';
 
 export default function LogIn() {
 
     const [loginVisible, setLoginVisibility] = useState(true);
-    const [signInVisible, setSignInisibility] = useState(true);
+    const [signInVisible, setSignInVisibility] = useState(true);
+    const history = useHistory();
 
-    const handleMailLogIn = (event: React.SyntheticEvent) => {
+    useEffect( ()=> {
+        if(auth.currentUser?.emailVerified){
+            history.push('/')
+        }
+    },[])
+
+    const handleMailLogIn = (event: React.SyntheticEvent, user: string, passwd: string) => {
         event.preventDefault();
-        let rta = auth.signInWithEmailAndPassword('hola', 'asd');
-        alert(rta);
-        console.log(rta)
+        auth.signInWithEmailAndPassword(user, passwd)
+            .then(() => history.push('/'))
+            .catch(error => console.log(error.code));
     }
 
-    const handleSignIn = (event: React.SyntheticEvent) => {
+    const handleSignIn = (event: React.SyntheticEvent, user: string, passwd: string) => {
         event.preventDefault();
-        let rta = auth.createUserWithEmailAndPassword('tomirodriguez.89@gmail.com', 'pendorchorosa');
-        console.log(rta)
+        auth.createUserWithEmailAndPassword(user, passwd)
+            .then(() => { auth.currentUser?.sendEmailVerification() })
+            .then(() => {
+                alert("Te enviamos un mail para que ferifiques la cuenta. Una vez verificado podes hacer el Log In! :D")
+                setTimeout(showLogInForm, 5000);
+            })
+            .catch(error => alert(error))
     }
 
     const hadnleSocialMediaLogin = (event: React.SyntheticEvent) => {
@@ -30,12 +43,12 @@ export default function LogIn() {
 
     const showSignInForm = () => {
         setLoginVisibility(false);
-        setSignInisibility(true);
+        setSignInVisibility(true);
     }
 
     const showLogInForm = () => {
         setLoginVisibility(true);
-        setSignInisibility(false);
+        setSignInVisibility(false);
     }
 
     return (

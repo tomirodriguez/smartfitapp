@@ -3,7 +3,7 @@ import PasswordInput from './PasswordInput';
 
 export default function SignInForm(props: { onSignIn: Function, onLogInClicked: Function }) {
 
-    const [main, setMail] = useState('');
+    const [mail, setMail] = useState('');
     const [name, setName] = useState('');
     const [passwd, setPasswd] = useState('');
 
@@ -14,7 +14,7 @@ export default function SignInForm(props: { onSignIn: Function, onLogInClicked: 
     const handlePasswdChange = (event: React.ChangeEvent<HTMLInputElement>) => { setPasswd(event.target.value) }
 
     const handleFormSubmitted = (event: React.SyntheticEvent) => {
-        props.onSignIn(event);
+        props.onSignIn(event, mail, passwd);
     }
 
     return (

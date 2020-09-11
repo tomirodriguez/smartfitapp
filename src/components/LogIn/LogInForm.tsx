@@ -15,7 +15,7 @@ export default function LogInForm(props: { onLogIn: Function, onRegisterClicked:
     const handleRememberCbxChange = () => { setRemembeUser(!rememberUser) }
 
     const handleFormSubmitted = (event: React.SyntheticEvent) => {
-        props.onLogIn(event);
+        props.onLogIn(event, user, passwd);
     }
 
     return (
