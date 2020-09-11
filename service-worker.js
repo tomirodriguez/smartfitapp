@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smartfitapp/precache-manifest.86b28ef20c3ebbc7b9667dd3d1bf3043.js"
+  "/smartfitapp/precache-manifest.d96f3937b1684cf4ee8cad4abe030dec.js"
 );
 
 self.addEventListener('message', (event) => {

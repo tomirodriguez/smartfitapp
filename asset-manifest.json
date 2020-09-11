@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/smartfitapp/static/css/main.453d8880.chunk.css",
-    "main.js": "/smartfitapp/static/js/main.2e78344f.chunk.js",
-    "main.js.map": "/smartfitapp/static/js/main.2e78344f.chunk.js.map",
+    "main.js": "/smartfitapp/static/js/main.988ed02e.chunk.js",
+    "main.js.map": "/smartfitapp/static/js/main.988ed02e.chunk.js.map",
     "runtime-main.js": "/smartfitapp/static/js/runtime-main.db2e8487.js",
     "runtime-main.js.map": "/smartfitapp/static/js/runtime-main.db2e8487.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/smartfitapp/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f30f4c72.chunk.js": "/smartfitapp/static/js/2.f30f4c72.chunk.js",
-    "static/js/2.f30f4c72.chunk.js.map": "/smartfitapp/static/js/2.f30f4c72.chunk.js.map",
+    "static/js/2.c19158c4.chunk.js": "/smartfitapp/static/js/2.c19158c4.chunk.js",
+    "static/js/2.c19158c4.chunk.js.map": "/smartfitapp/static/js/2.c19158c4.chunk.js.map",
     "index.html": "/smartfitapp/index.html",
-    "precache-manifest.86b28ef20c3ebbc7b9667dd3d1bf3043.js": "/smartfitapp/precache-manifest.86b28ef20c3ebbc7b9667dd3d1bf3043.js",
+    "precache-manifest.d96f3937b1684cf4ee8cad4abe030dec.js": "/smartfitapp/precache-manifest.d96f3937b1684cf4ee8cad4abe030dec.js",
     "service-worker.js": "/smartfitapp/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/smartfitapp/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.453d8880.chunk.css.map": "/smartfitapp/static/css/main.453d8880.chunk.css.map",
-    "static/js/2.f30f4c72.chunk.js.LICENSE.txt": "/smartfitapp/static/js/2.f30f4c72.chunk.js.LICENSE.txt"
+    "static/js/2.c19158c4.chunk.js.LICENSE.txt": "/smartfitapp/static/js/2.c19158c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db2e8487.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f30f4c72.chunk.js",
+    "static/js/2.c19158c4.chunk.js",
     "static/css/main.453d8880.chunk.css",
-    "static/js/main.2e78344f.chunk.js"
+    "static/js/main.988ed02e.chunk.js"
   ]
 }
