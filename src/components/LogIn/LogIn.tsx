@@ -34,6 +34,7 @@ export default function LogIn() {
         auth.createUserWithEmailAndPassword(user, passwd)
             .then(() => { auth.currentUser?.sendEmailVerification() })
             .then(() => {
+                auth.signOut();
                 alert("Te enviamos un mail para que ferifiques la cuenta. Una vez verificado podes hacer el Log In! :D")
                 setTimeout(showLogInForm, 5000);
             })
